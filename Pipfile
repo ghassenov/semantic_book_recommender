@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kagglehub = "*"
+pandas = "*"
+seaborn = "*"
+python-dotenv = "*"
+langchain-community = "*"
+langchain-openai = "*"
+langchain-chroma = "*"
+gradio = "*"
+ipywidgets = "*"
+torch = "*"
+transformers = "*"
+huggingface-hub = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.0"
